@@ -1,6 +1,8 @@
+@import 'app-colors.scss';
 html,
 body {
   padding: 0;
+  background-color: $bg-primary;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -12,6 +14,10 @@ a {
 }
 
 * {
+  margin: 0%;
+  padding: 0;
+  background-color: $bg-primary;
+  color: $text-primary-content;
   box-sizing: border-box;
 }
 
